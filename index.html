@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body><div class="row">
+    <div class="logo">
+        <img src="download.png" alt="">
+    </div>
+    <div class="submit">
+        <a href="https://kode.camp" class="submit-btn about">Read more about us</a>
+     </div>
+</div>
+<div class="header">
+    <h1>KodeCamp registration</h1>
+    <h4>Please, fill in the form to get on KodeCamp training</h4>
+</div> 
+   <p id="p-tag"></p>
+   <form  class ='form'action="">
+<div class="col">
+<label for ='input-text'>First Name:</label>
+<input class="input" type="text" id="input-text" placeholder="Enter your first name here">
+</div>
+<div class="col">
+    <label for ='input-text'>Last Name:</label>
+    <input class="input" type="text" id="input-text" placeholder="Enter your last name here">
+    </div>
+    <div class="col">
+      <span>Email</span>
+        <input class="input" type="email" id="input-text" placeholder="Enter your Email">
+        </div>
+        <div class="col gender">
+            <span>Specify your gender</span>
+           <div class="rows">
+            <div class="rows_in"><input type="radio" name="gender" value="male">Male </div>
+            <div class="rows_in">
+                <input type="radio" name="gender" value="female">Female
+            </div>
+           </div>
+        </div>
+       <div class="col">
+     <span>Education background</span>
+        <textarea class="input"  name="Education background" id="input-text" cols="30" rows="4"></textarea>
+       </div>
+       <div class="col">
+           <span>Do you have a laptop?</span>
+  <div class="rows">
+      <div class="rows_in">
+        <input type="radio" name="yes-no">Yes</input>
+      </div>
+   <div class="rows_in"><input type="radio" name="yes-no">No</input></div>
+    
+  </div>
+    </div>
+    <div class="col">
+        <span>Who introduced you to KodeCamp?</span>
+        <select name="who introduced you?" id="input-text">
+            <option value="friends">Friends</option>
+            <option value="friends">social-media</option>
+            <option value="friends">school</option>
+        </select>
+        </div>
+       
+        <div class="col">
+           <span>What track are you applying for?</span>
+           <div class="rows">
+               <div class="rows_in"><input type="radio" name="track" value="fe">Frontend Developer</div>
+               <div class="rows_in">  <input type="radio" name="track" value="other">Backend Developer
+                Developer</div>
+               <div class="rows_in">
+                <input type="radio" name="track" value="other">Java</div>
+               <div class="rows_in"> <input type="radio" name="track" value="other">Python</div>
+               <div class="rows_in"><input type="radio" name="track" value="other">Node.js</div>
+               <div class="rows_in">    <input type="radio" name="track" value="other">React</div>
+               <div class="rows_in"> <input type="radio" name="track" value="other">PHP</div>
+               <div class="rows_in"> <input type="radio" name="track" value="female">UI/Ux Designer</div>
+               <div class="rows_in">        <input type="radio" name="track" value="other">Data Analyst</div>
+           </div>
+        </div>
+        <div class="col">
+            <span>What level are you in?</span>
+      <div class="rows"> <div class="rows_in"><input type="radio" name="level">Beginner level</input></div>
+    <div class="rows_in"><input type="radio" name="level">Inter-mediate level</input></div>    
+    </div>
+     </div>
+     <div class="col">
+         <span>
+             Tell us about yourself
+         </span>
+         <textarea class="input" name="About Yourself" id="input-text" cols="30" rows="4"></textarea>
+     </div>
+     <div class="col">
+         <span>Choose Your Country</span>
+         <select id="input-text"class='countryFetch' name="Country-name" id="">
+            
+         </select>
+     </div>
+     <div class="submit">
+        <a href=""id='submit' class="submit-btn">submit here</a>
+     </div>
+   </form> 
+   <script src="ajax.js"></script>
+</body>
+</html>
